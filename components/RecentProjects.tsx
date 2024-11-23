@@ -13,7 +13,7 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="mt-12 flex flex-wrap items-center justify-center px-4 gap-16 ">
+      <div className="mt-12 flex flex-wrap items-center justify-center px-4 gap-32 lg:gap-16 ">
         {projects.map((item, index) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
@@ -28,17 +28,19 @@ const RecentProjects = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+                <div className="relative flex items-center justify-center sm:w-96 w-[80vw] h-[30vh] lg:h-[30vh] mb-10">
                   <div
-                    className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                    style={{ backgroundColor: "#13162D" }}
-                  >
-                    <img src="/bg.png" alt="bgimg" />
+                    className="relative w-full bg-[#13162D] lg:rounded-3xl">
+                    <img
+                      src="/bg.png"
+                      alt="Background Image"
+                      className="hidden sm:block w-full h-full object-cover"
+                    />
                   </div>
                   <img
                     src={item.img}
-                    alt="cover"
-                    className="z-10 absolute bottom-0"
+                    alt="Cover"
+                    className="z-10 absolute inset-0 w-full h-full object-cover"
                   />
                 </div>
 
@@ -73,7 +75,7 @@ const RecentProjects = () => {
 
                   <div className="flex justify-center items-center">
                     <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                      Check Live Site
+                      Check Out Code
                     </p>
                     <FaLocationArrow className="ms-3" color="#CBACF9" />
                   </div>

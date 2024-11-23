@@ -38,30 +38,30 @@ export const gridItems = [
 export const projects = [
   {
     title: "Tickets",
-    des: "rafted a user-friendly ticket marketplace that accommodates over 1200 users, leveraging microservices, Kubernetes, Docker, Node.js, and Javascript, focusing on strengthening code quality and system performance.",
-    img: "/Tickets.jpg",
-    iconLists: ["/p.png", "/pandas.png", "/numpy.png", "/seaborn.svg", "/sk.png"],
+    des: "Crafted a user-friendly ticket marketplace that accommodates over 1200 users, leveraging microservices, Kubernetes, Docker, Node.js, and Javascript, focusing on strengthening code quality and system performance.",
+    img: "/projects/Tickets.jpg",
+    iconLists: ["/skills/kubernetes.png", "/skills/docker.png", "/skills/nodejs.png", "/skills/typescript.png", "/skills/react.png"],
     link: "https://github.com/tjonty/ticketing",
   },
   {
     title: "Medikit",
     des: "Spearheaded integration of Django, Python, and MongoDB to revolutionize data management for medical stakeholders, ensuring robust and secure handling of sensitive data and obtaining a 30% boost in data processing.",
-    img: "/medikit.webp",
-    iconLists: ["/numpy.png", "/sk.png", "/pandas.png", "/p.png", "/dv.png"],
+    img: "/projects/Medikit.png",
+    iconLists: ["/skills/django.png", "/skills/python.png", "/skills/Javascript.png", "/skills/mongoDB.png", "/skills/aws.svg"],
     link: "https://github.com/tjonty/medikit_project",
   },
   {
     title: "Retail Revolution AI-Infused",
     des: "Led comprehensive data management for 30+ retail stores, applied Python and Excel for data aggregation and refinement, ensuring exceptional accuracy in data processing and reporting.",
-    img: "/bsb.png",
-    iconLists: ["/jim.png", "/di.png", "/excel.png", "/sql.png", "/dv.png"],
+    img: "/projects/Retail.jpg",
+    iconLists: ["/skills/python.png", "/skills/tableau.png", "/skills/excel.png", "/skills/sql.png", "/dv.png"],
     link: "https://github.com/tjonty",
   },
   {
     title: "Exploit",
     des: "Implemented an e-commerce website with features such as add to cart, and search, Utilized React Js and Redux’s state management to categorize data within different pages.",
-    img: "/exploit.webp",
-    iconLists: ["/excel.png", "/t.png", "/pbi.png", "/gh.png", "/sql.png"],
+    img: "/projects/exploit.png",
+    iconLists: [ "/skills/nodejs.png", "/skills/react.png", "/skills/mongoDB.png", "/skills/tailwind.png", "/skills/kubernetes.png"],
     link: "https://github.com/tjonty/exploit",
   },
 ];
@@ -74,7 +74,7 @@ export const skills = [
   },
   {
     name: "React",
-    img: "/react.png",
+    img: "/skills/react.png",
     nameImg: "/reactn.png",
   },
   {
@@ -99,12 +99,12 @@ export const skills = [
   },
   {
     name: "Python",
-    img: "/p.png",
+    img: "/skills/python.png",
     nameImg: "/pn.png",
   },
   {
     name: "AWS",
-    img: "/aws.svg",
+    img: "/skills/aws.svg",
     nameImg: "/awsn.png",
   },
   {
@@ -119,7 +119,7 @@ export const skills = [
   },
   {
     name: "SQL",
-    img: "/sql.png",
+    img: "/skills/sql.png",
     nameImg: "/sqln.png",
   },
   {
