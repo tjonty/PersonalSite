@@ -11,7 +11,6 @@ const Approach = () => {
       </h1>
 
       <div className="mt-12 flex flex-col lg:flex-row items-center justify-center w-full gap-8">
-        {/* Add description to cards */}
         <Card
           title="Vision Mapping & Strategy"
           icon={<AceternityIcon order="Phase 1" />}

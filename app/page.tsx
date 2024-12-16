@@ -1,15 +1,11 @@
 "use client";
 
-import { navItems } from "@/data";
-
 import Grid from "@/components/Grid";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
-// import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import ScrollItems from "@/components/ui/ScrollItems";
 import Navbar from "@/components/ui/FloatingNavbar";
 import Section from "@/components/ui/Section";
 import Skills from "@/components/Clients";
