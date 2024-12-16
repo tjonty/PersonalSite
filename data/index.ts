@@ -37,6 +37,13 @@ export const gridItems = [
 
 export const projects = [
   {
+    title: "Avocados",
+    des: "Three.js and React setup featuring a floating avocado model that glides effortlessly across the screen. 3D animation and modern web technology.",
+    img: "/projects/Avocados.png",
+    iconLists: ["/skills/threejs.png", "/skills/react.png", "/skills/javascript.png"],
+    link: "https://avocados-3js.netlify.app",
+  },
+  {
     title: "Tickets",
     des: "Crafted a user-friendly ticket marketplace that accommodates over 1200 users, leveraging microservices, Kubernetes, Docker, Node.js, and Javascript, focusing on strengthening code quality and system performance.",
     img: "/projects/Tickets.jpg",
@@ -91,6 +98,11 @@ export const skills = [
     name: "Go Lang",
     img: "/skills/golang.png",
     nameImg: "/golang.png",
+  },
+  {
+    name: "Three Js",
+    img: "/skills/threejs.png",
+    nameImg: "/threejs.png",
   },
   {
     name: "Java",
