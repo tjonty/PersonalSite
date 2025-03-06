@@ -3,9 +3,13 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { trackEvent } from '@/lib/firebase';
 
 const Header = () => {
   function downloadResume() {
+    trackEvent('button_clicked', {
+      section_id: 'Resume',
+    })
     const link = document.createElement("a");
     link.href = "/Jonty Tejani.pdf";
     link.download = "/Jonty Tejani.pdf";
