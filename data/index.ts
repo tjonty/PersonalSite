@@ -37,6 +37,13 @@ export const gridItems = [
 
 export const projects = [
   {
+    title: "One Point",
+    des: "Create a streamlined, single-page showcase where each professional link takes center stage.",
+    img: "/projects/one-point.png",
+    iconLists: ["/skills/svelte.png", "/skills/Firebase.png", "/skills/typescript.png"],
+    link: "https://onepoint.it.com",
+  },
+  {
     title: "Avocados",
     des: "Three.js and React setup featuring a floating avocado model that glides effortlessly across the screen. 3D animation and modern web technology.",
     img: "/projects/Avocados.png",
@@ -68,8 +75,8 @@ export const projects = [
     title: "Exploit",
     des: "Implemented an e-commerce website with features such as add to cart, and search, Utilized React Js and Redux’s state management to categorize data within different pages.",
     img: "/projects/exploit.png",
-    iconLists: [ "/skills/nodejs.png", "/skills/react.png", "/skills/mongoDB.png", "/skills/tailwind.png", "/skills/kubernetes.png"],
-    link: "https://github.com/tjonty/exploit",
+    iconLists: ["/skills/nodejs.png", "/skills/react.png", "/skills/mongoDB.png", "/skills/tailwind.png", "/skills/kubernetes.png"],
+    link: "https://dazzling-bell-a1d1b9.netlify.app",
   },
 ];
 
@@ -82,7 +89,12 @@ export const skills = [
   {
     name: "React",
     img: "/skills/react.png",
-    nameImg: "/reactn.png",
+    nameImg: "/react.png",
+  },
+  {
+    name: "Svelte",
+    img: "/skills/svelte.png",
+    nameImg: "/svelte.png",
   },
   {
     name: "Typescript",
@@ -118,6 +130,11 @@ export const skills = [
     name: "AWS",
     img: "/skills/aws.svg",
     nameImg: "/awsn.png",
+  },
+  {
+    name: "Firebase",
+    img: "/skills/firebase.png",
+    nameImg: "/firebase.png",
   },
   {
     name: "Docker",
@@ -158,14 +175,14 @@ export const skills = [
     name: "Git",
     img: "/skills/git.png",
     nameImg: "/git.png",
-  },  
+  },
 ];
 
 export const workExperience = [
   {
     title: "Software Engineer",
-    company:"Influxer",
-    duration:"June 2024 - present",
+    company: "Influxer",
+    duration: "June 2024 - present",
     desc: "Code for a startup building a platform serves student-athlete for their NIL(Name, Image, Likeness)",
     lines: [
       "Optimized API performance by refactoring queries to raw SQL and fine-tuning backend logic, delivering a 70% reduction in response time and enhancing overall application speed.",
@@ -179,8 +196,8 @@ export const workExperience = [
   },
   {
     title: "Full Stack Engineer",
-    company:"Pro-Tek Consulting",
-    duration:"Sept 2023 - June 2024",
+    company: "Pro-Tek Consulting",
+    duration: "Sept 2023 - June 2024",
     desc: "Design and code for a consulting firm and its client",
     lines: [
       "Orchestrated development of high-efficiency user management APIs (REST, GraphQL) through Node.js, Express.js, and TypeScript, turbocharging backend functionality to achieve below 200ms response times.",
@@ -193,10 +210,10 @@ export const workExperience = [
   },
   {
     title: "Software Engineer",
-    company:"Par Solution",
-    duration:"Oct 2018 - Jul 2021",
+    company: "Par Solution",
+    duration: "Oct 2018 - Jul 2021",
     desc: "Design and code internal projects",
-    lines: [  
+    lines: [
       "Revamped an MVC architecture Spring Boot, AWS, and OAuth, achieving a 30% optimization in throughput, driving responsiveness to front end while aligning product evolution with user preferences.",
       "Troubleshoot 50+ high-priority bugs through troubleshooting and accelerated automated test coverage for critical features to 90%, reducing bug leakage rate from 9% to 1%.",
       "Acquired React, Redux, and TypeScript to refine frontend operations, leading to a 15% amplification in overall UI performance.",
@@ -212,21 +229,25 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    name: 'Github',
     link: "https://github.com/tjonty/",
   },
   {
     id: 2,
     img: "/insta.png",
+    name: 'Instagram',
     link: "https://www.instagram.com/tjonty23/",
   },
   {
     id: 3,
     img: "/link.svg",
+    name: 'LinkedIn',
     link: "https://www.linkedin.com/in/jontytejani/",
   },
   {
     id: 4,
     img: "/x.png",
+    name: 'X',
     link: "https://x.com/tjonty23",
   },
 ];

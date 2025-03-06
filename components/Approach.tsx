@@ -6,8 +6,8 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <h1 className="heading">
-        My <span className="text-purple">approach</span>
+      <h1 className="heading uppercase">
+        My <span className="text-purple">Approach</span>
       </h1>
 
       <div className="mt-12 flex flex-col lg:flex-row items-center justify-center w-full gap-8">

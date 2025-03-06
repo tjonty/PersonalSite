@@ -8,7 +8,7 @@ import { InfiniteMovingCards } from "./ui/InfiniteCards";
 const Skills = () => {
   return (
     <section className="py-20">
-      <h1 className="heading">
+      <h1 className="heading uppercase">
         <span className="lg:text-7xl text-purple">Skills</span>
       </h1>
 

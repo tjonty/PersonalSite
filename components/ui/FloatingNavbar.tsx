@@ -3,6 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence, useScroll } from "framer-motion";
 import { Link } from "react-scroll";
 import { navItems } from "@/data";
+import { trackEvent } from "@/lib/firebase";
 
 export default function Navbar() {
 
@@ -48,6 +49,11 @@ export default function Navbar() {
               smooth={true}
               duration={500}
               className="relative text-neutral-200 hover:text-blue-400 items-center flex space-x-1 text-sm cursor-pointer"
+              onClick={() =>
+                trackEvent('section_clicked', {
+                  section_id: navItem.name,
+                })
+              }
             >
               <span>{navItem.name}</span>
             </Link>
