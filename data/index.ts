@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     title: "💼",
-    description: "With over 3 years of experience working with various programming languages and companies across different industries, I've gained valuable insights into software development, teamwork, and efficiency from colleagues, universities, and mentors.",
+    description: "With over 4 years of experience working with various programming languages and companies across different industries, I've gained valuable insights into software development, teamwork, and efficiency from colleagues, universities, and mentors.",
     className: "lg:col-span-2 col-span-1",
     imgClassName: "",
     titleClassName: "justify-left",
@@ -36,6 +36,13 @@ export const gridItems = [
 ];
 
 export const projects = [
+  {
+    title: "MongoDB MCP",
+    des: "AI-Powered Database Management. Zero Code Required.",
+    img: "/projects/mongodb-mcp.png",
+    iconLists: ["/skills/claude.png", "/skills/mongodb.png", "/skills/typescript.png"],
+    link: "https://youtu.be/yNfE1Xu9xeI?si=dF-JiCKOMrOOmuV3",
+  },
   {
     title: "One Point",
     des: "Create a streamlined, single-page showcase where each professional link takes center stage.",
@@ -82,6 +89,11 @@ export const projects = [
 
 export const skills = [
   {
+    name: "Go Lang",
+    img: "/skills/golang.png",
+    nameImg: "/golang.png",
+  },
+  {
     name: "Node.Js",
     img: "/skills/nodejs.png",
     nameImg: "/nodejs.png",
@@ -105,11 +117,6 @@ export const skills = [
     name: "Javascript",
     img: "/skills/javascript.png",
     nameImg: "/javascript.png",
-  },
-  {
-    name: "Go Lang",
-    img: "/skills/golang.png",
-    nameImg: "/golang.png",
   },
   {
     name: "Three Js",
@@ -185,10 +192,10 @@ export const workExperience = [
     duration: "June 2024 - present",
     desc: "Code for a startup building a platform serves student-athlete for their NIL(Name, Image, Likeness)",
     lines: [
+      "Initiated server infrastructure migration from Node-Lambda to Go, maximizing resource utilization and system performance.",
       "Optimized API performance by refactoring queries to raw SQL and fine-tuning backend logic, delivering a 70% reduction in response time and enhancing overall application speed.",
       "Established a blog section within Remix React framework, integrating Shopify-Hydrogen pagination, increased user engagement by 14% while reducing client-side load by 50%.",
       "Architected and launched a Product Recommendation system powered by Remix and React, propelling a 25% increase in sales through personalized athlete and university-based suggestions.",
-      "Initiated server infrastructure migration from Node-Lambda to Go, maximizing resource utilization and system performance.",
       "Developed a Python-based CLI tool leveraging Click, streamlining env variable synchronization between local environments and Pocketbase server, catalyzing team productivity and accelerating workflow."
     ],
     // className: "md:col-span-2",
@@ -228,26 +235,32 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/socials/git.svg",
     name: 'Github',
     link: "https://github.com/tjonty/",
   },
   {
     id: 2,
-    img: "/insta.png",
+    img: "/socials/instagram.png",
     name: 'Instagram',
     link: "https://www.instagram.com/tjonty23/",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/socials/linkedin.png",
     name: 'LinkedIn',
     link: "https://www.linkedin.com/in/jontytejani/",
   },
   {
     id: 4,
-    img: "/x.png",
+    img: "/socials/x.png",
     name: 'X',
     link: "https://x.com/tjonty23",
+  },
+  {
+    id: 5,
+    img: "/socials/youtube.png",
+    name: 'Youtube',
+    link: "https://www.youtube.com/@jontytejani6875",
   },
 ];

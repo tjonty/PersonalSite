@@ -24,11 +24,11 @@ const Home = () => {
         <Section id="experience">
           <Experience />
         </Section>
-        <Section id="projects">
-          <RecentProjects />
-        </Section>
         <Section id="skills">
           <Skills />
+        </Section>
+        <Section id="projects">
+          <RecentProjects />
         </Section>
         <Section id="approach">
           <Approach />
